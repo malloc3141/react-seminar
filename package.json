@@ -11,10 +11,16 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.19",
     "clsx": "^2.1.0",
+    "fnm": "^0.0.0",
+    "pnpm": "^8.15.5",
+    "postcss": "^8.4.38",
+    "postcss-loader": "^8.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
