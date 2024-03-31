@@ -34,6 +34,7 @@ export const TodoDisplay = ({ todo, setTodo }) => {
             className="mt-8"
             type="checkbox"
             value={todoElement.checked}
+            defaultChecked={todoElement.checked}
             onChange={() => {
               const todoArr = JSON.parse(window.localStorage.getItem("todoList"));
               for (let i = 0; i < todoArr.length; i++) {
